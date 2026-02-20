@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/xhr-http-handler`](https://www.npmjs.com/package/@aws-sdk/xhr-http-handler/v/3.178.0).
+[`@aws-sdk/xhr-http-handler`](https://www.npmjs.com/package/@aws-sdk/xhr-http-handler/v/3.183.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.178.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.183.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-5/Pz3SW+C6oeF5xlDXiMFk9Xsg7hJUToX0815xcrIAsOexW5KPmqB+HWsnZL0Eqq
+sha384-tIBI2lDz8gtwAqA8MZnzZEMWaWoXnkpsGvablYbNWfiLRP0RjvJtzdAH22eGw/Fu
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/xhr-http-handler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.178.0/index.min.mjs"
+            "@aws-sdk/xhr-http-handler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.183.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.178.0/index.min.mjs": "sha384-5/Pz3SW+C6oeF5xlDXiMFk9Xsg7hJUToX0815xcrIAsOexW5KPmqB+HWsnZL0Eqq"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.183.0/index.min.mjs": "sha384-tIBI2lDz8gtwAqA8MZnzZEMWaWoXnkpsGvablYbNWfiLRP0RjvJtzdAH22eGw/Fu"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/xhr-http-handler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.178.0/index.min.mjs"
+                        "@aws-sdk/xhr-http-handler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.183.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.178.0/index.min.mjs": "sha384-5/Pz3SW+C6oeF5xlDXiMFk9Xsg7hJUToX0815xcrIAsOexW5KPmqB+HWsnZL0Eqq"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/xhr-http-handler@3.183.0/index.min.mjs": "sha384-tIBI2lDz8gtwAqA8MZnzZEMWaWoXnkpsGvablYbNWfiLRP0RjvJtzdAH22eGw/Fu"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.178.0`)
+* Always pin to a specific version (`@3.183.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/xhr-http-handler/blob/refs/tags/3.178.0/LICENSE
+https://github.com/cloud-sdk-builds/xhr-http-handler/blob/refs/tags/3.183.0/LICENSE
 ```
 
 ---
