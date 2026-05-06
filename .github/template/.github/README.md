@@ -3,6 +3,11 @@
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
 [`@aws-sdk/{repoName}`](https://www.npmjs.com/package/@aws-sdk/{repoName}/v/{repoVersion}).
 
+Refer to the links below for detailed documentation:
+- All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
+- @aws-sdk/{repoName} - [https://cloud-sdk-builds.github.io/?sdk={repoName}](https://cloud-sdk-builds.github.io/?sdk={repoName})
+- @aws-sdk/{repoName} v{repoVersion} - [https://cloud-sdk-builds.github.io/?sdk={repoName}&version={repoVersion}](https://cloud-sdk-builds.github.io/?sdk={repoName}&version={repoVersion})
+
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
 > ⚡ No build process required — import directly from a CDN and start using it immediately.
@@ -175,5 +180,3 @@ https://github.com/{orgName}/{repoName}/blob/refs/tags/{repoVersion}/LICENSE
 ```
 
 ---
-
-If you want, I can next give you a **legally safest naming pattern** for all repositories (very important for trademark safety, especially avoiding “aws-sdk” in repo names while still keeping discoverability).
